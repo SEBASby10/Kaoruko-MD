@@ -48,7 +48,7 @@ const log = {
   
 const { say } = cfonts
 console.log(chalk.magentaBright('\n❀ Iniciando...'))
-  say('Yuki Suou', {
+  say('Nexy', {
   align: 'center',           
   gradient: ['red', 'blue'] 
 })
