@@ -7,7 +7,7 @@ global.botNumber = ''
 
 global.sessionName = 'Sessions/Owner'
 global.version = '^1.0 - Latest'
-global.dev = "© ⍴᥆ᥕᥱrᥱძ ᑲᥡ ⁱᵃᵐ|𝔇ĕ𝐬†𝓻⊙γ𒆜"
+global.dev = "© ⍴᥆ᥕᥱrᥱძ ᑲᥡ NEXY"
 global.links = {
 api: 'https://api.stellarwa.xyz',
 channel: "https://whatsapp.com/channel/0029Vb64nWqLo4hb8cuxe23n",
