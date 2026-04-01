@@ -212,12 +212,7 @@ cd && cd YukiBot-MD && rm -rf Sessions/Owner && npm start
 
 ---
 
-### 🦋 Colaboradores
-<a href="https://api.stellarwa.xyz">
-  <img src="https://contrib.rocks/image?repo=iamDestroy/YukiBot-MD" />
-</a>
-
 ### 💐 Propietario
-[![King](https://files.catbox.moe/xwpbdx.jpg?size=120)](https://github.com/SEBASby10)
-[![King](https://files.catbox.moe/qrlgdr.jpg?size=120)](https://github.com/LuisCheats)
+[![King](https://files.catbox.moe/xwpbdx.jpg?size=100)](https://github.com/SEBASby10)
+[![King](https://files.catbox.moe/qrlgdr.jpg?size=100)](https://github.com/LuisCheats)
 
