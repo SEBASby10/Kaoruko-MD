@@ -135,7 +135,7 @@ cd && cd NIXY-BOT && npm start
 ---
 
 ### Obtener nuevo inicio de Sessión 
-> *Detén el bot, haz click en el símbolo (ctrl) [default=z] usar la letra "z" + "ENTER" hasta que salga algo verdes similar a:>  `NIXY-BOT $`*
+> *Detén el bot, haz click en el símbolo (ctrl) [default=z] usar la letra "z" + "ENTER" hasta que salga algo verdes similar a: `NIXY-BOT $`*
  
 ```bash 
 cd && cd NIXY-BOT && rm -rf Sessions/Owner && npm start
