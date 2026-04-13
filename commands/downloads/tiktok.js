@@ -1,4 +1,4 @@
-import fetch from 'node-fetch';
+	import fetch from 'node-fetch';
 
 export default {
   command: ['tiktok', 'tt', 'tiktoksearch', 'ttsearch', 'tts'],
@@ -9,20 +9,20 @@ export default {
     }
     const text = args.join(" ")
     const isUrl = /(?:https:?\/{2})?(?:w{3}|vm|vt|t)?\.?tiktok.com\/([^\s&]+)/gi.test(text)
-    const endpoint = isUrl  ? `${global.APIs.stellar.url}/dl/tiktok?url=${encodeURIComponent(text)}&key=${global.APIs.stellar.key}` : `${global.APIs.stellar.url}/search/tiktok?query=${encodeURIComponent(text)}&key=${global.APIs.stellar.key}`
+    const endpoint = `https://www.tikwm.com/api/?url=${encodeURIComponent(text)}&hd=1`
     try {
       const res = await fetch(endpoint)
       if (!res.ok) throw new Error(`El servidor respondió con ${res.status}`)
       const json = await res.json()
-      if (!json.status) return m.reply('《✧》 No se encontró contenido válido en TikTok.')
+      if (json.code !== 0) return m.reply('《✧》 No se encontró contenido válido en TikTok.')
       if (isUrl) {
-        const { title, duration, dl, author, stats, created_at, type } = json.data
+        const { title, duration, play: dl, author, stats, create_time: created_at, is_ad: type } = json.data
         if (!dl || (Array.isArray(dl) && dl.length === 0)) return m.reply('《✧》 Enlace inválido o sin contenido descargable.')
         const caption = `ㅤ۟∩　ׅ　★ ໌　ׅ　🅣𝗂𝗄𝖳𝗈𝗄 🅓ownload　ׄᰙ
 
 𖣣ֶㅤ֯⌗ ✎  ׄ ⬭ *Título:* ${title || 'Sin título'}
-𖣣ֶㅤ֯⌗ ꕥ  ׄ ⬭ *Autor:* ${author?.nickname || author?.unique_id || 'Desconocido'}
-𖣣ֶㅤ֯⌗ ⴵ  ׄ ⬭ *Duración:* ${duration || 'N/A'}
+𖣣ֶㅤ֯⌗ ꕥ  ׄ ⬭ *Autor:* ${author.nickname || author || 'Desconocido'}
+𖣣ֶㅤ֯⌗ ⴵ  ׄ ⬭ *Duración:* ${duration || 'N/A'} segundos
 𖣣ֶㅤ֯⌗ ❖  ׄ ⬭ *Likes:* ${(stats?.likes || 0).toLocaleString()}
 𖣣ֶㅤ֯⌗ ❀  ׄ ⬭ *Comentarios:* ${(stats?.comments || 0).toLocaleString()}
 𖣣ֶㅤ֯⌗ ✿  ׄ ⬭ *Vistas:* ${(stats?.views || stats?.plays || 0).toLocaleString()}
