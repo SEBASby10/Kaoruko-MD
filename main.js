@@ -55,10 +55,10 @@ export default async (client, m) => {
   if (!users.stats[today]) users.stats[today] = { msgs: 0, cmds: 0 };
   users.stats[today].msgs++;
   
-  const rawBotname = settings.namebot || 'Nexy';
+  const rawBotname = settings.namebot || 'Kaoruko';
   const tipo = settings.type || 'Sub';
   const cleanBotname = rawBotname.replace(/[^a-zA-Z0-9\s]/g, '')
-  const namebot = cleanBotname || 'Nexy';
+  const namebot = cleanBotname || 'Kaoruko';
   const shortForms = [namebot.charAt(0), namebot.split(" ")[0], tipo.split(" ")[0], namebot.split(" ")[0].slice(0, 2), namebot.split(" ")[0].slice(0, 3)];
   const prefixes = shortForms.map(name => `${name}`);
   prefixes.unshift(namebot);
