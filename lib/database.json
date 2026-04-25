@@ -14,9 +14,9 @@
     },
     "5214452773745@s.whatsapp.net": {
       "name": "☾☽ 𝗦𝝨𝝗𝝙𝗦 ☾☽",
-      "exp": 431,
+      "exp": 511,
       "level": 8,
-      "usedcommands": 7,
+      "usedcommands": 9,
       "pasatiempo": "",
       "description": "",
       "marry": "",
@@ -42,9 +42,9 @@
     },
     "50765836410@s.whatsapp.net": {
       "name": "𝓛",
-      "exp": 28,
-      "level": 2,
-      "usedcommands": 1,
+      "exp": 46,
+      "level": 3,
+      "usedcommands": 2,
       "pasatiempo": "",
       "description": "",
       "marry": "",
@@ -52,8 +52,8 @@
       "birth": "",
       "metadatos": null,
       "metadatos2": null,
-      "minxp": 13,
-      "maxxp": 34
+      "minxp": 35,
+      "maxxp": 71
     },
     "5216182306067@s.whatsapp.net": {
       "name": "Javier",
@@ -103,6 +103,10 @@
             "2026-04-13": {
               "msgs": 23,
               "cmds": 0
+            },
+            "2026-04-25": {
+              "msgs": 16,
+              "cmds": 0
             }
           },
           "usedTime": null,
@@ -135,10 +139,14 @@
             "2026-04-13": {
               "msgs": 10,
               "cmds": 6
+            },
+            "2026-04-25": {
+              "msgs": 5,
+              "cmds": 2
             }
           },
-          "usedTime": "2026-04-13T16:01:50.250Z",
-          "lastCmd": 1776096110250,
+          "usedTime": "2026-04-25T20:49:28.101Z",
+          "lastCmd": 1777150168101,
           "coins": 6014,
           "bank": 0,
           "afk": -1,
@@ -150,10 +158,14 @@
             "2026-04-13": {
               "msgs": 2,
               "cmds": 1
+            },
+            "2026-04-25": {
+              "msgs": 2,
+              "cmds": 1
             }
           },
-          "usedTime": "2026-04-13T15:54:58.733Z",
-          "lastCmd": 1776095698733,
+          "usedTime": "2026-04-25T20:51:35.976Z",
+          "lastCmd": 1777150295976,
           "coins": 0,
           "bank": 0,
           "afk": -1,
@@ -294,7 +306,7 @@
         ".",
         "#"
       ],
-      "commandsejecut": 8,
+      "commandsejecut": 11,
       "id": "120363426781015568@newsletter",
       "nameid": "𝓚𝓪𝓸𝓻𝓾𝓴𝓸-𝓜𝓓",
       "type": "Owner",
