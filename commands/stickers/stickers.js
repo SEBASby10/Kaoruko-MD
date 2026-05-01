@@ -42,7 +42,7 @@ const searchPacks = async (query, attempt = 1) => {
 
 const downloadPack = async (url, attempt = 1) => {
   try {
-    const { data } = await axios.get('https://api.stellarwa.xyz/stickerly/detail', { params: { url, key: '' }, timeout: 10000 });
+    const { data } = await axios.get('https://api.stellarwa.xyz/stickerly/detail', { params: { url, key: 'YukiWaBot' }, timeout: 10000 });
     return data;
   } catch (e) {
     if (e.response?.status === 429 && attempt <= 3) { await delay((e.response.headers['retry-after'] || 5) * 1000); return downloadPack(url, attempt + 1); }
