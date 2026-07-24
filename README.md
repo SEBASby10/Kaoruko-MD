@@ -32,11 +32,11 @@ Koaruko es un bot de WhatsApp multifuncional basado en `baileys`. Este bot ofrec
 <summary><strong>🍒 Cloud</strong> — Shell</summary>
 
 ```bash
-git clone https://github.com/iamDestroy/YukiBot-MD
+git clone https://github.com/SEBASby10/Kaoruko-MD
 ```
 
 ```bash
-cd YukiBot-MD
+cd Kaoruko-MD 
 ```
 
 ```bash
@@ -64,7 +64,7 @@ apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
 ```
 
 ```bash
-git clone https://github.com/iamDestroy/YukiBot-MD
+git clone https://github.com/SEBASby10/Kaoruko-MD
 ```
 
 ```bash
@@ -90,7 +90,7 @@ npm start
 <details>
 <summary><strong>🍒 Comandos para tener mas tiempo activo</strong> — el Bot</summary>
 
-> *Ejecutar estos comandos dentro de la carpeta YukiBot-MD*
+> *Ejecutar estos comandos dentro de la carpeta Kaoruko-MD*
 ```bash
 termux-wake-lock && npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs 
 ``` 
@@ -121,15 +121,15 @@ pm2 start index
 ### En caso de detenerse
 > _Si despues que ya instalastes tu bot y termux te salta en blanco, se fue tu internet o reiniciaste tu celular, solo realizaras estos pasos:_
 ```bash
-cd && cd YukiBot-MD && npm start
+cd && cd Kaoruko-MD && npm start
 ```
 ---
 
 ### Obtener nuevo inicio de Sessión 
-> *Detén el bot, haz click en el símbolo (ctrl) [default=z] usar la letra "z" + "ENTER" hasta que salga algo verdes similar a: `YukiBot-MD $`*
+> *Detén el bot, haz click en el símbolo (ctrl) [default=z] usar la letra "z" + "ENTER" hasta que salga algo verdes similar a: `Kaoruko-MD $`*
  
 ```bash 
-cd && cd YukiBot-MD && rm -rf Sessions/Owner && npm start
+cd && cd Kaoruko-MD && rm -rf Sessions/Owner && npm start
 ```
 </details>
 
@@ -233,4 +233,4 @@ cd && cd YukiBot-MD && rm -rf Sessions/Owner && npm start
 [![Carlos](https://github.com/AzamiJs.png?size=120)](https://github.com/AzamiJs)
 
 ### 💐 Propietario
-[![King](https://github.com/iamDestroy.png?size=120)](https://github.com/iamDestroy)
+[![King](https://github.com/SEBASby10.png?size=120)](https://github.com/SEBASby10)
