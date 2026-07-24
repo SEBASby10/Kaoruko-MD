@@ -224,10 +224,6 @@ cd && cd Kaoruko-MD && rm -rf Sessions/Owner && npm start
 
 ---
 
-### 🦋 Colaboradores
-<a href="https://api.yuki-wabot.my.id">
-  <img src="https://contrib.rocks/image?repo=iamDestroy/YukiBot-MD" />
-</a>
-
 ### 💐 Propietario
 [![King](https://github.com/SEBASby10.png?size=120)](https://github.com/SEBASby10)
+[![King](https://github.com/luisxitq.png?size=120)](https://github.com/luisxitq)
