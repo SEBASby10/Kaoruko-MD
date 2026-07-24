@@ -229,8 +229,5 @@ cd && cd Kaoruko-MD && rm -rf Sessions/Owner && npm start
   <img src="https://contrib.rocks/image?repo=iamDestroy/YukiBot-MD" />
 </a>
 
-### 🌼 Agradecimientos
-[![Carlos](https://github.com/AzamiJs.png?size=120)](https://github.com/AzamiJs)
-
 ### 💐 Propietario
 [![King](https://github.com/SEBASby10.png?size=120)](https://github.com/SEBASby10)
